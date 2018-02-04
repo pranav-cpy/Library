@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/author"
+        android:layout_width="35dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="48dp"
+        android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+              <TextView
+                  android:text="author name"
+                  android:textStyle="bold"
+                  android:layout_marginTop="20dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:textSize="15sp"
+                  android:textColor="#47494f"
+                  android:layout_marginLeft="25dp"
+                  android:id="@+id/author_name11" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="13sp"
+                    android:textColor="#47494f"
+                    android:text="age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/age1" />
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:textSize="13sp"
+                android:textColor="#47494f"
+                android:text="gender"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/gender1" />
+                   </LinearLayout>
+            <TextView
+                android:text="born in"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="13sp"
+                android:textColor="#777982"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/born_in" />
+        </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

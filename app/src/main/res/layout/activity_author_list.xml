@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_marginBottom="0dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentTop="true">
+
+    <include layout="@layout/nav_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></include>
+
+
+    <LinearLayout
+        android:background="#f8f8fa"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="54dp">
+        <TextView
+            android:layout_width="271dp"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:text="AUTHORS"
+
+            android:textSize="12sp"
+            android:layout_marginLeft="16dp"
+            android:letterSpacing="0.6"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="bk cnt"
+            android:textSize="12dp"
+            android:paddingTop="20dp"
+            android:letterSpacing="0.6"
+            android:id="@+id/textView" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:divider="#abc"
+        android:dividerHeight="1.5dp"
+        android:id="@+id/listview2"></ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

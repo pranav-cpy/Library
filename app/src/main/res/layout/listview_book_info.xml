@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/book"
+            android:layout_width="40dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="48dp"
+            android:layout_height="31dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="Book name"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:textColor="#47494f"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/b_name" />
+
+            <TextView
+                android:text="ISBN"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="13sp"
+                android:textColor="#9095aa"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/b_isbn" />
+
+            <com.borjabravo.readmoretextview.ReadMoreTextView
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginRight="29dp"
+                android:text="details"
+                android:layout_marginBottom="18dp"
+                android:textSize="12sp"
+                android:textColor="#9095aa"
+                app:trimExpandedText="More"
+                app:trimCollapsedText="Less"
+                app:trimMode="trimModeLine"
+                android:layout_marginLeft="25dp"
+                app:trimLength="1"
+                app:colorClickableText="#6379f6"
+                android:id="@+id/b_details" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

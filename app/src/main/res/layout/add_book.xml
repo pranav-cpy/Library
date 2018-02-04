@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8fa"
+    android:weightSum="1">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="56dp"
+           android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:textColor="#6379f6"
+            android:lineSpacingExtra="8sp"
+            android:text="Add Book"
+
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginBottom="11dp"
+            />
+
+</LinearLayout>
+    <EditText
+        android:layout_marginTop="60dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="328dp"
+        android:hint="Book Name"
+        android:layout_height="48dp"
+        android:id="@+id/textView_b1"
+
+        />
+
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_height="50dp"
+
+        android:id="@+id/spin_author">
+
+    </Spinner>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:hint="ISBN Number"
+        android:layout_height="48dp"
+        android:id="@+id/textView_b2"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:hint="Description of content"
+        android:layout_height="48dp"
+        android:id="@+id/textView_b3"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="15.5dp"
+        android:layout_marginLeft="15.5dp"
+        android:layout_marginTop="52dp"
+        android:background="#1e000000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:text="save book"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_height="48dp"
+        android:background="#6379f6"
+
+        android:layout_gravity="bottom"
+        android:id="@+id/button_book" />
+</LinearLayout>
+    </LinearLayout>

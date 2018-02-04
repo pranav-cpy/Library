@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+     android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#ffffff"
+android:id="@+id/nav">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="#6379f6"
+        android:lineSpacingExtra="8sp"
+        android:text="Library"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginBottom="11dp"
+        />
+
+</LinearLayout>
+</android.support.v7.widget.Toolbar>
